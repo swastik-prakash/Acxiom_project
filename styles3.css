@@ -1,0 +1,57 @@
+/* Common styles for all buttons */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Styles for the primary button */
+.primary-button {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Hover effect for primary button */
+.primary-button:hover {
+    background-color: #0056b3;
+}
+
+/* Styles for the secondary button */
+.secondary-button {
+    background-color: #ccc;
+    color: #333;
+}
+
+/* Hover effect for secondary button */
+.secondary-button:hover {
+    background-color: #999;
+}
+
+/* Styles for the success button */
+.success-button {
+    background-color: #28a745;
+    color: #fff;
+}
+
+/* Hover effect for success button */
+.success-button:hover {
+    background-color: #1e7e34;
+}
+
+/* Styles for the danger button */
+.danger-button {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+/* Hover effect for danger button */
+.danger-button:hover {
+    background-color: #c82333;
+}
